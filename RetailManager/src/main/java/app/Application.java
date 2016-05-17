@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Configuration;
 @EnableAutoConfiguration
 @ComponentScan("app")
 @SpringBootApplication 
-//@EnableEurekaClient
+@EnableEurekaClient
 public class Application {
 
   public static void main(String[] args) throws Exception {
